@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 export default function CustomName() {
-  const [text, setText] = useState("WISNU WICAKSONO");
+  const [text, setText] = useState("AYUSH BINDHANI");
   const [intervalId, setIntervalId] = useState<NodeJS.Timer | null>(null);
 
   const handleMouseOver = () => {
