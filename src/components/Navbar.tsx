@@ -43,11 +43,7 @@ const navMenu = [
         path: "/about/work",
         icon: <SiTypescript className="w-4 h-4 shrink-0" />,
       },
-      {
-        name: "gear.md",
-        path: "/about/gear",
-        icon: <FaMarkdown className="w-4 h-4 shrink-0" />,
-      },
+    
     ],
   },
   {
@@ -82,27 +78,22 @@ const navMenu = [
     child: [
       {
         name: "Email",
-        path: "mailto:wwicaksono96@gmail.com",
+        path: "mailto:ayushbindhani001@gmail.com",
         icon: <FaRegEnvelope className="w-4 h-4" />,
       },
       {
-        name: "Upwork",
-        path: "https://www.upwork.com/freelancers/~01df34d78e05fa69bf",
-        icon: <TbBrandUpwork className="w-4 h-4" />,
-      },
-      {
         name: "WhatsApp",
-        path: "https://wa.me/+6287885002327",
+        path: "https://wa.me/+918249979557",
         icon: <BsWhatsapp className="w-4 h-4" />,
       },
       {
         name: "LinkedIn",
-        path: "https://www.linkedin.com/in/wiscaksono/",
+        path: "https://www.linkedin.com/",
         icon: <BsLinkedin className="w-4 h-4" />,
       },
       {
         name: "Instagram",
-        path: "https://www.instagram.com/amachoker/",
+        path: "https://www.instagram.com/ayushbindhani/",
         icon: <BsInstagram className="w-4 h-4" />,
       },
     ],
@@ -140,7 +131,7 @@ const MobileSheets = () => {
       </SheetTrigger>
       <SheetContent size="xl">
         <SheetHeader>
-          <SheetTitle className="mb-10">Wiscaksono</SheetTitle>
+          <SheetTitle className="mb-10">AYUSH BINDHANI</SheetTitle>
           <Accordion type="multiple" className="space-y-4">
             {navMenu.map((menu, i) => (
               <AccordionItem value={menu.name} key={i}>
